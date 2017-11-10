@@ -154,7 +154,7 @@ typedef enum slot {
 /*** Info about the core being debugged. ***/
 
 #define DBUS_ADDRESS_UNKNOWN	0xffff
-#define WALL_CLOCK_TIMEOUT		2
+#define WALL_CLOCK_TIMEOUT		60
 
 // gdb's register list is defined in riscv_gdb_reg_names gdb/riscv-tdep.c in
 // its source tree. We must interpret the numbers the same here.
